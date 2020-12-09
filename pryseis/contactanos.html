@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <!-- Navar este tiene que estar en todos los html o crearlo con java script metodo load-->
+            <div class="nav-wrapper">
+                <a href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" class="brand-logo" style="margin-left: 2vw;">SENA</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="conocenos.html">Conocenos</a></li>
+                    <li><a href="sedes.html">Sedes</a></li>
+                    <li><a href="contactanos.html">Contactanos</a></li>
+                    <li><a href="registro.html">Registrarme</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Primer fila -->
+        <div class="row">
+            <div class="input-field col s6">
+                <i class="material-icons prefix">policy</i>
+                <input type="text" name="userName" id="userName" class="validate">
+                <label for="userName">Nombre(s)</label>
+            </div>
+        </div>
+        <!-- Segunda fila -->
+        <div class="row">
+            <div class=" input-field col s6 ">
+                <i class="material-icons prefix">email</i>
+                <input id="userEmail" type="email" class="validate">
+                <label for="userEmail">Email</label>
+                <span class="helper-text" data-error="Dominio no establecido" data-success="right"></span>
+            </div>
+            <!-- tercera fila -->
+        </div>
+        <div class="row">
+            <div class=" input-field col s10 ">
+                <input id="text" type="text" class="validate">
+                <label for="tex">asunto</label>
+            </div>
+        </div>
+        <!-- cuarta fila -->
+        <div class="row">
+            <div class=" input-field col s12 ">
+                <textarea id="textarea1" class="textarea" length="120" style="height: 30vh;"></textarea>
+                <label for="tex"></label>
+            </div>
+        </div>
+        <div class="col s6">
+            <center>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Aceptar
+                <i class="material-icons right" class="center">send</i>
+              </button>
+            </center>
+        </div>
+        <script src="js/materialize.min.js "></script>
+    </div>
+</body>
+
+</html>
